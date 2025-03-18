@@ -1,0 +1,54 @@
+# Ignore target directory
+/target/
+/*/target/
+
+# Ignore Cargo's lock file if this is a library
+Cargo.lock
+
+# Ignore build artifacts
+**/*.rs.bk
+
+# Ignore Rust-specific files
+*.rmeta
+*.d
+
+# Ignore tests and benchmarks
+/tests/target/
+/benches/target/
+/examples/target/
+
+# Ignore Rust debugging tools
+*.profdata
+
+# Ignore IDE/editor files
+.idea/
+.vscode/
+*.iml
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*.swn
+
+# Ignore Rustup & Cargo specific files
+/.cargo/
+.cargo-lock
+
+# Ignore compiled binaries and executables
+/target/
+debug/
+release/
+
+# Ignore coverage reports
+/coverage/
+
+# Ignore Clippy and Rustfmt output
+clippy.toml
+rustfmt.toml
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
